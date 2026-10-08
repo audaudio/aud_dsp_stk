@@ -1,0 +1,16 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: AudDspStkBindings
+description: |
+  Bindings for `src/aud_dsp_stk.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/aud_dsp_stk_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/aud_dsp_stk.h'
+  include-directives:
+    - 'src/aud_dsp_stk.h'
+ffi-native:
+comments:
+  style: any
+  length: full
