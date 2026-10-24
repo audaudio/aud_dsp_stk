@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.3 - 2026-10-24
+
+### Changed
+
+- Define NOMINMAX before windows.h
+
 ## 0.0.2 - 2026-10-08
 
 ### Added
