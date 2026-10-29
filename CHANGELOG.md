@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 - 2026-10-29
 
 ### Added
 
@@ -39,7 +39,6 @@
 - Drop the lock file of the example, the package lock covers it
 
 - Keep test within the test_api that flutter_test pins
-
 
 ## 0.0.3 - 2026-10-24
 
